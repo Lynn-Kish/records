@@ -60,7 +60,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>KCCA Boda-Boda Cyclist Records</h1>
+        <h1>KCCA BODA-BODA CYCLISTS RECORDS</h1>
         <CyclistRegistration addCyclist={this.addCyclist} />
         <CyclistList
           cyclists={this.state.cyclists}

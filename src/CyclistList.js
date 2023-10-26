@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import DeleteCyclist from './DeleteCyclist';
 
 class CyclistList extends Component {
   constructor(props) {

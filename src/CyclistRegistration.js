@@ -21,7 +21,7 @@ class CyclistRegistration extends Component {
   };
 
   handleRegister = () => {
-    // Create a cyclist object from the state
+    // Create a new cyclist object with the registration data
     const newCyclist = {
       name: this.state.name,
       age: this.state.age,
@@ -33,10 +33,10 @@ class CyclistRegistration extends Component {
       stage: this.state.stage,
     };
 
-    // Call the function passed from the App component to add the cyclist
+    // Call the addCyclist function passed from the App component to add the new cyclist
     this.props.addCyclist(newCyclist);
 
-    // Clear the input fields after registration
+    // Clear the form inputs after registration
     this.setState({
       name: '',
       age: '',
@@ -56,10 +56,79 @@ class CyclistRegistration extends Component {
         <form>
           <label>
             Name:
-            <input type="text" name="name" onChange={this.handleInputChange} value={this.state.name} />
+            <input
+              type="text"
+              name="name"
+              onChange={this.handleInputChange}
+              value={this.state.name}
+            />
           </label>
-          {/* Add similar input fields for other cyclist information */}
-          <button type="button" onClick={this.handleRegister}>Register</button>
+          <label>
+            Age:
+            <input
+              type="text"
+              name="age"
+              onChange={this.handleInputChange}
+              value={this.state.age}
+            />
+          </label>
+          <label>
+            Address:
+            <input
+              type="text"
+              name="address"
+              onChange={this.handleInputChange}
+              value={this.state.address}
+            />
+          </label>
+          <label>
+            Contact:
+            <input
+              type="text"
+              name="contact"
+              onChange={this.handleInputChange}
+              value={this.state.contact}
+            />
+          </label>
+          <label>
+            Next of Kin Address:
+            <input
+              type="text"
+              name="nextOfKinAddress"
+              onChange={this.handleInputChange}
+              value={this.state.nextOfKinAddress}
+            />
+          </label>
+          <label>
+            Next of Kin Contact:
+            <input
+              type="text"
+              name="nextOfKinContact"
+              onChange={this.handleInputChange}
+              value={this.state.nextOfKinContact}
+            />
+          </label>
+          <label>
+            Registration No:
+            <input
+              type="text"
+              name="registrationNo"
+              onChange={this.handleInputChange}
+              value={this.state.registrationNo}
+            />
+          </label>
+          <label>
+            Stage:
+            <input
+              type="text"
+              name="stage"
+              onChange={this.handleInputChange}
+              value={this.state.stage}
+            />
+          </label>
+          <button type="button" onClick={this.handleRegister}>
+            Register
+          </button>
         </form>
       </div>
     );
