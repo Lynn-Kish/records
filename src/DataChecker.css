@@ -1,0 +1,43 @@
+/* DataChecker Component Styles */
+.DataChecker {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Heading Style */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Check Data Button Style */
+  button {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Individual Checked Cyclist Style */
+  .CheckedCyclist {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Styling for Checked Status */
+  .CheckedCyclist p:last-child {
+    font-weight: bold;
+    color: #0074cc; /* Blue color for checked cyclists */
+  }
+  
