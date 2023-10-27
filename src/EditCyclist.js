@@ -39,7 +39,7 @@ class EditCyclist extends Component {
           </label>
           {/* Add similar input fields for other cyclist information */}
           <button type="button" onClick={this.handleSave}>
-            Save
+            Update
           </button>
         </form>
       </div>

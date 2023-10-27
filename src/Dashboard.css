@@ -1,0 +1,53 @@
+/* Dashboard Component Styles */
+.Dashboard {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Heading Style */
+  h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Start/Stop Checking Button Style */
+  button {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* CyclistList Component Styles */
+  .CyclistList {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* Individual Cyclist Entry Styles */
+  .CyclistEntry {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Check Button Style */
+  .CheckButton {
+    background-color: #f00; /* Red color for checking button */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
